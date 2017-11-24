@@ -27,11 +27,7 @@
 	<activator>org.openmrs.module.anonymize.AnonymizeActivator</activator>
 
 
-	<!-- Adds link to admin page -->
-	<extension>
-		<point>org.openmrs.admin.list</point>
-		<class>${project.parent.groupId}.${project.parent.artifactId}.extension.html.AdminList</class>
-	</extension>
+	
 
 	<!-- Maps hibernate file's, if present -->
 	<mappingFiles>
